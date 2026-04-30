@@ -1,0 +1,8 @@
+# Ignorer le code natif Android
+android/** linguist-vendored
+
+# Ignorer les fichiers générés
+build/** linguist-generated=true
+
+# Forcer Dart comme langage principal
+*.dart linguist-detectable=true
