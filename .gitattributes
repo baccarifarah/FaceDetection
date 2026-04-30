@@ -1,24 +1,21 @@
-# Flutter / Dart = langage principal
+# Dart = langage principal
 *.dart linguist-detectable=true
 
-# Ignorer Android natif
+# Ignorer tous les dossiers plateformes
 android/** linguist-vendored
-
-# Ignorer iOS natif
 ios/** linguist-vendored
-
-# Ignorer macOS / Windows / Linux
+linux/** linguist-vendored
 macos/** linguist-vendored
 windows/** linguist-vendored
-linux/** linguist-vendored
+web/** linguist-vendored
 
-# Ignorer dossiers générés
+# Ignorer fichiers générés
 build/** linguist-generated=true
-**/*.g.dart linguist-generated=true
+.dart_tool/** linguist-generated=true
 
-# Ignorer C / C++ / CMake
+# Ignorer C/C++/CMake
 *.cpp linguist-vendored
 *.c linguist-vendored
 *.h linguist-vendored
-CMakeLists.txt linguist-vendored
 *.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
